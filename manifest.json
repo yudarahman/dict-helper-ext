@@ -1,0 +1,11 @@
+{
+  "name": "Dictionary Helper",
+  "description": "Helper for searching the meaning of a word on the web",
+  "version": "0.0.1",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "incognito": "spanning",
+  "manifest_version": 3
+}
